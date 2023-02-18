@@ -1,0 +1,21 @@
+form{
+    width: min(100%,400px);
+    margin: 0 auto;
+    padding: 30px;
+    background: radial-gradient(rgba(57, 182, 119, 0.466), transparent 80%) top left / 200% 200%;
+}
+form label{
+    display: block;
+    margin: 10px 0;
+}
+form input,textarea{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,.5),
+    inset -1px -1px 5px rgba(105,55,155,.4);
+    font-size: 1.2rem;
+    font-weight: bold;
+}

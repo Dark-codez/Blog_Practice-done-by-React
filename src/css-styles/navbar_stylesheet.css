@@ -1,0 +1,49 @@
+.navbar{
+    margin-bottom: 30px;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    --gap: 10px;
+    flex: 1 1 0;
+    display: flex;
+    gap: var(--gap);
+    align-items: center;
+}
+nav ul li{
+    flex: 0 0 calc(calc(100% / 5) - var(--gap));
+}
+nav ul li i{
+    margin-right: 5px;
+    color: #004;
+}
+nav ul li a{
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 230px;
+    color: #000;
+    outline: none;
+    font-weight: bold;
+    transition: all .1s;
+    font-size: 1.3rem;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+img{
+    max-width: 50px;
+}
+div.logo{
+    transform-box: fill-box;
+    animation: animate 2s linear infinite;    
+}
+@keyframes animate{
+    100%{
+        transform: rotate(1turn);
+    }
+}
